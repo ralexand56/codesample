@@ -1,0 +1,32 @@
+th {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cols {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+  line-height: 16px !important;
+  vertical-align: middle;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i {
+  padding-right: 5px;
+}
+
+/* .App {
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.ref {
+  background-color: rgba(136, 255, 0, 0.4);
+}
+
+.competitor {
+  background-color: #f9f9f9;
+}

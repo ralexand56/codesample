@@ -27,56 +27,6 @@ export default combineReducers<UsersState, Action>({
           ),
         };
 
-      case ActionKeys.REPORT_ADD:
-        const reportUser = state[action.newReport.userid];
-
-        return {
-          ...state,
-          [reportUser.id]: {
-            ...reportUser,
-            reportIds: [...reportUser.reportIds, action.newReport.id],
-          },
-        };
-
-      case ActionKeys.INSTITUTION_SET_ADD:
-        const selUser = state[action.institutionSet.userid];
-
-        return {
-          ...state,
-          [selUser.id]: {
-            ...selUser,
-            institutionSetIds: [
-              ...selUser.institutionSetIds,
-              action.institutionSet.id,
-            ],
-          },
-        };
-
-      // case ActionKeys.PRODUCT_CRITERIA_ADD:
-      //   const user = state[action.userId];
-      //   return {
-      //     ...state,
-      //     [action.userId]: {
-      //       ...user,
-      //       productCriterionIds: [
-      //         ...user.productCriterionIds,
-      //         action.newProductCriterion.id,
-      //       ],
-      //     },
-      //   };
-
-      // case ActionKeys.PRODUCT_CRITERIA_DELETE:
-      //   const userDelete = state[action.userId];
-      //   return {
-      //     ...state,
-      //     [action.userId]: {
-      //       ...userDelete,
-      //       productCriterionIds: userDelete.productCriterionIds.filter(
-      //         f => f !== action.id
-      //       ),
-      //     },
-      //   };
-
       default:
         return state;
     }

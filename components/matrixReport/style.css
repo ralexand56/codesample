@@ -1,0 +1,75 @@
+.mproductTitle {
+  font-weight: 500;
+  width: 200px;
+  min-width: 200px;
+  background-color: #c6c6c6;
+  text-align: center;
+}
+
+.mproductDataTitle {
+  font-weight: 500;
+  width: 250px;
+}
+
+.mtableStyle {
+  /* border:solid 1px #222; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  border-left: 0;
+}
+
+.mtierLabel {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+  font-weight: 500;
+  height: 85px;
+  width: 200px;
+  padding: 5px;
+  line-height: 18px !important;
+  border-top: solid 1px #222;
+}
+
+.mCenter {
+  text-align: center;
+  align-content: center;
+}
+
+.mtierData {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  align-content: center;
+}
+
+.mtitleRow {
+  background-color: #dddddd;
+  height: 80px;
+  text-align: center;
+}
+
+.mtierColWidth {
+  width: 100px;
+}
+.mrateColWidth {
+  width: 40px;
+}
+.mpColWidth {
+  width: 30px;
+}
+.mPromotd {
+  border-top: solid 1px #222;
+  height: 50px;
+  text-align: center;
+  background-color: #c6c6c6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.mtierData a {
+  font-weight: 700;
+}
+
+.mtableStyle tbody tr td table tbody tr:hover {
+  background-color: rgba(136, 255, 0, 0.4);
+}
